@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='bg-gray-800 text-white'>
       <div className='flex justify-between items-center mx-4 h-16'>
         <span className='flex flex-col items-center'>
-          <p className='font-extrabold text-xl text-blue-500'>NUMBER1CARGOPLUG</p>
+          <p className='font-extrabold text-xl text-blue-500'>NUMBER<span className="text-red-600">1</span>CARGOPLUG</p>
           <ul className='hidden md:flex h-6 space-x-4 ml-4'>
             <li className='text-xs font-bold'>Cargo</li>
             <li className='text-xs font-bold'>Logistics</li>
